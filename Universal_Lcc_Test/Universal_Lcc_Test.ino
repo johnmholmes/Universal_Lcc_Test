@@ -1,6 +1,6 @@
 
 /*This is in beta testing but here to give a chance to have a look
-  at the sketch
+  at the sketch See the README file.
 
   2026.01.17 changes: Added second MCP23017, modified CDI
 
