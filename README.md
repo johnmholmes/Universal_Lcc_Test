@@ -52,10 +52,14 @@ Notes:
   * if RESET_TO_FACTORY_DEFAULTS is 1, then the EEPROM is intialized, 
     it must be changed to 0 and the sketch reloaded to allow JMRI to change items permanently.
   * The ACAN_ESP32Can.h library has been changed by David Harris.
-  MCP23017:
+ 
+ MCP23017:
     * Avoid Pin 7 as Input: Move any input devices (switches, sensors) on GPA7/GPB7 to other available pins (0–6).
-    * Use Hardware Reset: Connect the Reset pin (Pin 18) to the microcontroller and actively pull it high, or use 
+ Use Hardware Reset:  
+    *  Connect the Reset pin (Pin 18) to the microcontroller and actively pull it high, or use 
        a 10k resistor to pull it up to VCC to prevent floating.
-    * Add Decoupling Capacitors: Place a 0.1µF ceramic capacitor between VCC and GND as close to the chip as 
+ Add Decoupling Capacitors: 
+    *Place a 0.1µF ceramic capacitor between VCC and GND as close to the chip as 
        possible to filter power noise, which can cause erratic behavior.
-    * Use Pull-up Resistors on I2C: Ensure the SDA and SCL lines have pull-up resistors (typically 4.7kΩ).
+ Use Pull-up Resistors on I2C:
+    * Ensure the SDA and SCL lines have pull-up resistors (typically 4.7kΩ).
