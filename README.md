@@ -20,7 +20,7 @@ Two MCP23017 Port Expanders
   * These have the same characteristics as the native i/o.
   * See: e.g. https://www.amazon.ca/MCP23017-MCP23017-Expander-Expansion-3-0V-5-5V/dp/B0FHRRVKSP/
     
-Two PCA9695 Servo Expander
+Two PCA9685 Servo Expander
   * Each has two banks of 8 servos
   * Each servo has two endpoint positions, controlled by to consumed events.
   * Each servo has two events, produced as the servo passes the midpoint between the two midpoints.  
