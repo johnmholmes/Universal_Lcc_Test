@@ -7,7 +7,7 @@ Beta testing of 2 servo 40 IO PCA9685
 
 ## Please take a look at the issues section as this is used to raise an issue and the fix being put in place in the next version.
 
-ESP32 2SVO8IO2MCP2PCA Example.
+ESP32 Universal_Lcc_Test Example.
 
 This sketch implements: 
 Native channels, using the processors pins:
