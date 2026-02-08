@@ -3,6 +3,10 @@ Beta testing of 2 servo 40 IO PCA9685
 
 ## This is not ready for release but its here to help me keep  version control while 3 members colaberate with the development of this LCC Node.
 
+## The repository is public only because it gives me access to use the Wiki for documentation. Otherwise I would have this as private.
+
+## Please take a look at the issues section as this is used to raise an issue and the fix being put in place in the next version.
+
 ESP32 2SVO8IO2MCP2PCA Example.
 
 This sketch implements: 
