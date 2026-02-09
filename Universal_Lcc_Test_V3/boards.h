@@ -56,8 +56,8 @@
   #define NUM_NATIVE_IO  8
   #define IOPINS        14,27,26,32,15,4,16,23
   #define NUM_IO        74 // calc by hand 8+64
-  #define CAN_TX_PIN (gpio_num_t) 18
-  #define CAN_RX_PIN (gpio_num_t) 19
+  #define CAN_TX_PIN (gpio_num_t) 5
+  #define CAN_RX_PIN (gpio_num_t) 4
   #ifndef USEGCSERIAL
     #include "ACAN_ESP32Can.h"
   #endif // USEGCSERIAL
