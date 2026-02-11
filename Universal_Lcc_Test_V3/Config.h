@@ -24,7 +24,7 @@
 
 // To Force Reset EEPROM to Factory Defaults set this value to 1, else 0.
 // Need to do this at least once.
-#define RESET_TO_FACTORY_DEFAULTS 0
+#define RESET_TO_FACTORY_DEFAULTS 1
 
 #define NUM_NAT_SERVO 2
 #define NUM_NAT_POS 3
