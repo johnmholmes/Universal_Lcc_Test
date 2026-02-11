@@ -10,7 +10,7 @@
 
 This is my test version for demonstration CAN Bus use only by John Holmes
   - Pins 19 RX and 18 TX for the transceiver module
-  - Pins 14,27,26,32,15,4,16,23  are used for input or output
+  - Pins 14,27,26,32,15,17,16,23  are used for input or output
   - Pins 25,33 servos
   - Pin  21 SDA 
   - Pin  22 SCL
@@ -183,7 +183,7 @@ const char configDefInfo[] PROGMEM =
         <repname>7 or 15</repname>
         <string size='8'><name>Description</name></string>
         <int size='1'><name>Speed of movement 1-100</name>
-          <min>0</min><max>50</max>
+          <min>5</min><max>50</max>
           <hints><slider tickSpacing='20' immediate='yes' showValue='yes'> </slider></hints>
         </int>
         <int size='1'><name>Position 1 Angle 0-180></name>
@@ -351,11 +351,11 @@ void userInitAll()
   }  
   for(uint8_t i=0; i<NUM_PCA_SERVO; i++) {
     NODECONFIG.put(EEADDR(pcaservo[i].desc), ESTRING(""));
-    NODECONFIG.update(EEADDR(pcaservo[i].speed), 20);
-    NODECONFIG.update(EEADDR(pcaservo[i].angle1), 45);
-    NODECONFIG.update(EEADDR(pcaservo[i].angle2), 85);
+    NODECONFIG.update(EEADDR(pcaservo[i].speed), 5);
+    NODECONFIG.update(EEADDR(pcaservo[i].angle1), 90);
+    NODECONFIG.update(EEADDR(pcaservo[i].angle2), 90);
   }
-  NODECONFIG.update(EEADDR(pcaStartupPosition), 1);
+  NODECONFIG.update(EEADDR(pcaStartupPosition), 0);
 }
 
 // determine the state of each eventid
