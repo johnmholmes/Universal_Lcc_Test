@@ -101,10 +101,10 @@ const char configDefInfo[] PROGMEM =
           <relation><property>4</property><value>Input with pull-up Inverted</value></relation>
           <relation><property>5</property><value>Toggle</value></relation>
           <relation><property>6</property><value>Toggle with pull-up</value></relation>
-          <relation><property>7</property><value>Output PA</value></relation>
-          <relation><property>8</property><value>Output PA Inverted</value></relation>
-          <relation><property>9</property><value>Output PB</value></relation>
-          <relation><property>10</property><value>Output PB Inverted</value></relation>
+          <relation><property>7</property><value>Output Phase A</value></relation>
+          <relation><property>8</property><value>Output Phase A Inverted</value></relation>
+          <relation><property>9</property><value>Output Phase B</value></relation>
+          <relation><property>10</property><value>Output Phase B Inverted</value></relation>
         </map>
       </int>
       <int size='1'>
@@ -146,10 +146,10 @@ const char configDefInfo[] PROGMEM =
             <relation><property>4</property><value>Input with pull-up Inverted</value></relation>
             <relation><property>5</property><value>Toggle</value></relation>
             <relation><property>6</property><value>Toggle with pull-up</value></relation>
-            <relation><property>7</property><value>Output PA</value></relation>
-            <relation><property>8</property><value>Output PA Inverted</value></relation>
-            <relation><property>9</property><value>Output PB</value></relation>
-            <relation><property>10</property><value>Output PB Inverted</value></relation>
+            <relation><property>7</property><value>Output Phase A</value></relation>
+            <relation><property>8</property><value>Output Phase A Inverted</value></relation>
+            <relation><property>9</property><value>Output Phase B</value></relation>
+            <relation><property>10</property><value>Output Phase B Inverted</value></relation>
           </map>
         </int>
         <int size='1'>
