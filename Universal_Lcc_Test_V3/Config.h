@@ -32,8 +32,6 @@
 //#define NUM_NATIVE_IO 8 // defined in boards.h
 #define NUM_NAT_IO_EVENT (NUM_NATIVE_IO*2)
 
-#define MCP_ADDRESS1 0x27  //// Choose address for first mcp23017 board
-#define MCP_ADDRESS2 0x26  //// Choose address for second mcp23017 board
 const uint8_t MCP_ADDRESSES[] = { 0x27, 0x26, 0x22, 0x23 };
 #define NUM_MCP 2
 #define NUM_MCP_PORTS 4   //// calc by hand - two each on two mcp23017s
@@ -44,8 +42,6 @@ const uint8_t MCP_ADDRESSES[] = { 0x27, 0x26, 0x22, 0x23 };
 #define NUM_IO (NUM_NATIVE_IO+NUM_MCP_IO)
 #define NUM_IO_EVENT (NUM_IO*2)
 
-//#define PCA_ADDRESS1 0x40  //// Choose address for first pca9685 board
-//#define PCA_ADDRESS2 0x41  //// Choose address for second pca9685 board
 const uint8_t PCA_ADDRESSES[] = { 0x40, 0x41, 0x42, 0x43 };
 #define NUM_PCA 2
 #define NUM_PCA_PORTS 4 // MUST BE CALCULATED BY HAND
