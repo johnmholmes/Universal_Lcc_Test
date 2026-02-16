@@ -1,6 +1,8 @@
 # Universal_Lcc_Test
 Beta testing of 2 servo 40 IO PCA9685
 
+## The ESP32 C6 is not recommended at this stage for anyone to try with!
+
 ## This is not ready for release but its here to help me keep  version control while 3 members colaberate with the development of this LCC Node.
 
 ## The repository is public only because it gives me access to use the Wiki for documentation. Otherwise I would have this as private.
