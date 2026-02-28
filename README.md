@@ -1,3 +1,5 @@
+# A mayor rewrite is in progress so no further updates will be released until further notice. 28 Feb 2026
+
 # Universal_Lcc_Test
 Beta testing of 2 servo 40 IO PCA9685
 
